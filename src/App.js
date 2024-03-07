@@ -1,23 +1,35 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Lab1 from './components/Lab1';
+import Lab2 from './components/Lab2';
+import Lab3 from './components/Lab3';
+import Lab4 from './components/Lab4';
+import Lab5 from './components/Lab5';
+import Lab6 from './components/Lab6';
+import Lab7 from './components/Lab7';
+import Lab8 from './components/Lab8';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Lab1 />
+      <hr /> 
+
+      <Lab2 />
+      <hr /> 
+
+      <Lab3 />
+      <hr /> 
+
+      <Lab4 />
+      <hr /> 
+
+      <Lab5 />
+      <hr /> 
+
+      <Lab6 />
+      <hr /> 
+
     </div>
   );
 }
