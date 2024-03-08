@@ -30,6 +30,12 @@ function App() {
       <Lab6 />
       <hr /> 
 
+      <Lab7 />
+      <hr /> 
+
+      <Lab8 />
+      <hr /> 
+
     </div>
   );
 }
